@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration Page by JAK</title>
+		<style type="text/css">
+			body{
+				font-family: Tahoma;
+				margin: 0;
+				padding:0;
+                background:url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+                background-size:cover;
+            }
+       .registrat{
+       	text-align:center;
+       	border: none;
+	    box-shadow: 3px 3px 6px grey;
+       }
+       .registrat h1{
+       	color:#1c8adb;
+       	margin-bottom:30px;
+       }
+             form{
+				margin: 0 auto;
+				width: 500px;
+				padding: 20px;
+				background:white;
+			}
+	
+			.in{
+				margin: 10px;
+				padding: 5px;
+			}
+			label{
+				text-transform: uppercase;
+				padding-left: 10px;
+			}
+			input{
+				margin-top: 10px;
+				margin-bottom: 1px;
+				height: 20px;
+				width: 400px;
+				border-radius: 20px/20px;
+				border: none;
+				padding: 10px;
+				border:1px solid blue;
+			}
+			input:focus{
+				border: 2px solid grey;
+			}
+			.num{
+				width: 40px;
+			}
+			#gender{
+				width: 80px;
+				height: 35px;
+				border: 1px solid blue;
+				border-radius: 20px/20px;
+
+			}
+			#br{
+				width: 180px;
+			}
+			button{
+				cursor: pointer;
+				padding: 10px;
+				font-size:15px;
+				margin:10px 0;
+				height: 50px;
+				width:100%;
+				text-transform: uppercase;
+				background-color:#1c8adb;
+			}
+			table{
+				width: 100%;
+			}
+			img{
+				width:70px;
+			}
+			fieldset{
+				border: none;
+			}
+			legend{
+				color:#1c8adb;
+       			margin-bottom:30px;
+       			font-size: 200%;
+			}
+			.laa{
+			}
+			.mee{
+				color: red;
+			}
+			.see{
+				color: green;
+			}
+		</style>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="registrat">
+			<form>
+				<img src="img/dias.png">
+	 			<fieldset>
+	 				<legend>Registration now</legend>
+	 				<span>Personal information</span>
+	 				<div class="in">
+	 					<label id="fn">Frist name:</label>
+	 					<input type="text" name="fname" placeholder="Frist name" required>
+	 					<div><span id="e1" class="error">&emsp;</span></div>
+	 				</div>
+	 				<div class="in">
+	 					<label id="ln">Last name:</label>
+	 					<input type="text" name="lname" placeholder="Last name" required>
+	 					<div><span id="e2" class="error">&emsp;</span></div>
+	 				</div>
+	 				<div class="in">
+	 					<label>Gender:</label>
+	 					<select id="gender">
+	 						<option disabled selected>Choose</option>
+	 						<option value="Male">Male</option>
+	 						<option value="Female">Female</option>
+	 					</select>
+	 					<label>DOB:</label>
+	 					<input type="date" name="date" min="1900-01-01" max="2002-05-12" id="br" required>
+	 					<div><span id="ee">&emsp;</span></div>
+	 				</div>
+	 				<span><br>Account information</span>
+	 				<div class="in">
+	 					<label>Email:</label>
+	 					<input type="email" name="email" placeholder="email" required>
+	 					<div><span id="e3" class="error">&emsp;</span></div>
+	 				</div>
+	 				<div class="in">
+	 					<label>Password:</label>
+	 					<input type="password" name="password" placeholder="password" required>
+	 					<div><span id="e4" class="error">&emsp;</span></div>
+	 				</div>
+	 				<div class="in">
+	 					<label>Re-password:</label>
+	 					<input type="password" name="Re-password" placeholder="Re-password" required>
+	 					<div><span id="e5" class="error">&emsp;</span></div>
+	 				</div>
+	 				<span><br>Contact information</span>
+	 				<div class="in">
+	 					<label>Country:</label>
+	 					<input type="text" name="country" placeholder="Country" required>
+	 					<div><span id="e6" class="error">&emsp;</span></div>
+	 				</div>
+	 				<div class="in">
+	 					<label>City:</label>
+	 					<input type="text" name="city" placeholder="city" required>
+	 					<div><span id="e7" class="error">&emsp;</span></div>
+	 				</div>
+	 				<div class="in">
+	 					<label>Address:</label>
+	 					<input type="text" name="street" placeholder="street" required>
+	 					<div><span id="e8" class="error">&emsp;</span></div>
+	 				</div>
+	 				<div class="in">
+	 					<label>Number house:</label>
+	 					<input type="number" name="n1" class="num" max="100" min="1">&nbsp;/&nbsp;<input type="number" name="n2" class="num" max="100" min="0" required><div><span id="e9">&emsp;</span></div>
+	 				</div>
+	 				<center><button onclick="next()">Register</button></center>
+	 			</fieldset>
+	 		</form>
+	 	</div>
+	</body>
+</html>

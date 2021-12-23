@@ -1,0 +1,122 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+.navbar-items,
+.navbar {
+    flex-direction: column;
+    width:300px;
+}
+
+.navbar-items {
+    display: none;
+}
+
+.navbar-items-right {
+    margin-left: 0;
+}
+
+.navbar-items ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headline {
+    padding-top: 55%;
+}
+
+.about {
+    padding: 0px;
+}
+
+.about h2 {
+    font-size: 1.3rem;
+    padding-top: 54px;
+}
+
+.about .ab {
+    flex-direction: column;
+    padding: 0px;
+
+}
+
+.about .ab img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+
+.our-services {
+    padding: 0px;
+
+}
+
+.our-services h2 {
+    padding-top: 54px;
+    font-size: 1.4rem;
+}
+
+.our-services .services {
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.our-services .services img {
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.projects {
+    padding: 0px;
+
+}
+
+.projects h2 {
+    font-size: 1.4rem;
+}
+
+.projects .projects-container {
+    width: 100%;
+}
+
+.projects .projects-container img {
+    width: 100%;
+    border-radius: 0;
+}
+
+.contact {
+    padding: 0px;
+
+}
+
+.contact h2 {
+    padding-top: 24px;
+    font-size: 1.4rem;
+}
+
+.contact h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.contact .container-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact-btn {
+    margin-bottom: 25px;
+    width: 100%;
+
+}
