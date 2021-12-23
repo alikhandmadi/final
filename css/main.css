@@ -1,0 +1,387 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    color: #a1dd70;
+    display: flex;
+    padding: 22px;
+    font-family: sans-serif;
+    color: white;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-link-brand a {
+    color: #a1dd70;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-link {
+    padding-right: 28px;
+    color: #a1dd70;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar-link a {
+    color: #a1dd70;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items-right {
+    margin-left: auto;
+}
+
+.navbar-items .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+display:none;
+}
+.navbar ul li:hover .sub-menu-1{
+    display:block;
+    position:absolute;
+    background:rgb(0,50,0);
+    margin-top:8px;
+}
+.navbar ul li:hover .sub-menu-1 ul{
+    display:block;
+    margin:10px;
+}
+.navbar ul li:hover .sub-menu-1 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom:1px dotted #fff;
+    background:transparent;
+    border-radius:0;
+   } 
+ header {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ddd{
+    background:url(http://cdn.home-designing.com/wp-content/uploads/2016/10/Bachelor-kitchen-all-black-cabinetry-minimal-wooden-dining-table-black-sleek-chairs-1.jpg) no-repeat;
+    background-size: cover; 
+    height:850px;                    
+}
+.dias{
+    background:url(https://www.officelovin.com/wp-content/uploads/2020/05/azure-toronto-office-m.jpg);
+    background-size:cover;
+    height:750px;
+}
+.ora{
+    background:url(https://i.pinimg.com/originals/5a/b5/26/5ab52662023189b20e342b2fd5e36814.jpg);
+    background-size:cover;
+    height:750px;
+}
+.headline {
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+}
+
+.headline .title {
+    font-size: 2.9rem;
+    padding: 24px;
+}
+
+.headline .text {
+    padding-bottom: 24px;
+}
+
+.headline .btn {
+    background-color: #a1dd70;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 15rem 2.5rem;
+}
+
+.btn:hover {
+    background-color: #363636;
+    color: #a1dd70;
+    cursor: pointer;
+}
+
+
+.headline {
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+}
+
+.headline .title {
+    font-size: 2.9rem;
+    padding: 24px;
+}
+
+.headline .text {
+    padding-bottom: 24px;
+}
+
+.headline .btn {
+    background-color: #a1dd70;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 15rem 2.5rem;
+}
+
+.btn:hover {
+    background-color: #363636;
+    color: #a1dd70;
+    cursor: pointer;
+}
+
+.about {
+    padding: 120px;
+    background-color: #F6F6F6;
+}
+
+.about h2 {
+    padding-bottom: 94px;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.asd{
+    padding:60px;
+    background: #282828;;
+}
+.asd h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 31px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+.lol p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.ab {
+    display: flex;
+    justify-content: center;
+}
+
+.ab img {
+    width: 550px;
+    height: 350px;
+    border-right: 19px solid #a1dd70;
+    border-radius: 12px 95px;
+
+}
+
+.ab .ab-text {
+    padding: 25px;
+}
+
+.ab .ab-text h3 {
+    padding: 24px 0px;
+    font-size: 1.5rem;
+
+}
+
+.our-services {
+    padding: 120px;
+    text-align: center;
+    color: #333;
+}
+
+.our-services h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 55px;
+}
+
+.our-services p {
+    padding-bottom: 85px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.services img {
+    width: 400px;
+    height: 300px;
+    border-right: 19px solid #a1dd70;
+    border-radius: 12px 95px;
+    margin: 14px;
+}
+
+.services .box h3 {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.services .box p {
+    padding-left: 15px;
+}
+
+.projects {
+    padding: 120px;
+    background-color: #F6F6F6;
+    color: #333;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 24px;
+}
+
+.projects p {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.projects-container img {
+    margin: 15px;
+    padding: 0 20px 20px;
+    width: 350px;
+    height: 250px;
+    border-radius: 12px 95px;
+}
+
+.projects-container img:hover {
+    opacity: .5;
+    transition: .9s;
+}
+
+
+.contact {
+    padding: 120px;
+    color: #333;
+}
+.contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 55px;
+    text-transform: uppercase;
+}
+
+.contact h4 {
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.container-contact input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0px;
+
+}
+
+.container-contact textarea {
+    width: 100%;
+}
+
+.contact-info h3 {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.form {
+    margin: 0px 15%;
+}
+
+.contact-btn {
+    padding: 15px 12px;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    background-color: #A7C055;
+}
+#map{
+    padding-top: 50px;
+}
+.contact-btn:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #363636;
+    color: #A7C055;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+fieldset{
+    border: none;
+}
+span{
+    padding: 0%;
+    margin: 0%;
+}
+#error1{
+    color: red;
+}
+#error2{
+    color: red;
+}
+#error3{
+    color: red;
+}

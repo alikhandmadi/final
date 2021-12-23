@@ -1,0 +1,80 @@
+/*Navbar Styles responsive*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.navbar-items,
+.navbar {
+    flex-direction: column;
+    z-index: 999;
+}
+
+.navbar-items {
+    display: none;
+}
+
+.navbar-items-right {
+    margin-left: 0;
+}
+
+.navbar-items ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.Navbar__ToggleShow {
+    display: flex;
+}
+
+.navbar-link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
+
+.header-headline {
+    padding-top: 40%;
+}
+
+.our-story .story-container img {
+    margin: auto;
+}
+
+.our-story .story-container {
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+.our-services .services-container {
+    flex-direction: column;
+
+}
+
+.our-services .services-container img {
+    width: 100%;
+    height: 380px;
+
+
+
+
+}
+
+.projects .projects-container img {
+    width: 100%;
+    height: 350px;
+}
+.contact .container-contact {
+    flex-direction: column;
+}
+
+.contact .container-contact .contact-btn {
+    width: 100%;
+}
